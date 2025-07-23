@@ -2,7 +2,7 @@
 
 ************************************************************
 
-## 📊 Cluster Distribution
+## Cluster Distribution
 
 The KMeans model grouped wallets into 4 distinct clusters:
 
@@ -15,7 +15,7 @@ The KMeans model grouped wallets into 4 distinct clusters:
 
 ---
 
-## 🧠 Score Assignment Logic
+## Score Assignment Logic
 
 Credit scores were assigned to each cluster based on behavioral quality:
 
@@ -28,7 +28,7 @@ Credit scores were assigned to each cluster based on behavioral quality:
 
 ---
 
-## 📈 Score Distribution Insights
+## Score Distribution Insights
 
 - The majority of wallets fall in **Cluster 0**, scoring around 550 — likely casual or average users.
 - Cluster 1 wallets (score: 800) represent **stable users**, with active borrowing and repayment patterns.
@@ -37,7 +37,7 @@ Credit scores were assigned to each cluster based on behavioral quality:
 
 ---
 
-## 🔍 Observations
+## Observations
 
 - Most users show balanced borrowing and repayment patterns.
 - Liquidation events are a major signal for risk and are heavily penalized.
@@ -46,7 +46,7 @@ Credit scores were assigned to each cluster based on behavioral quality:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This model offers a simple and basic yet interpretable way to assess DeFi wallet behavior.  
 It helps distinguish safe borrowers from high-risk users using on-chain activity with potential real-world applications in:
