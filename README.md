@@ -47,12 +47,11 @@ After downloading, place the file in the `data/` folder before running the noteb
 ## 📂 Repository Structure
 
 credit-score/
-├── data/ # Raw and sample datasets (https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view?usp=sharing)
-├── notebooks/ # Jupyter notebooks with exploration and modeling code
-├── outputs/ # Final scored wallet outputs (e.g., CSV files)
-├── README.md # Project overview and methodology (this file)
-├── ANALYSIS.md # Detailed analysis and score distribution
-
+├── Data/               # Raw and sample datasets (https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view?usp=sharing)
+├── Exploration.ipynb   # Jupyter notebook with data exploration and modeling
+├── README.md           # Project overview and methodology (this file)
+├── ANALYSIS.md         # Detailed analysis and score distribution
+├── scored_wallets.csv  # Exported wallet scores from the model
 
 ---
 
