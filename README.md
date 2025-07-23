@@ -17,6 +17,18 @@ Higher scores indicate reliable and responsible users; lower scores reflect risk
 
 ---
 
+  ## Data Download
+
+The main dataset (~87MB) is **not included** in this repository due to size limits.
+
+You can download the dataset here:  
+[Download Aave V2 transaction data (Google Drive)](https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view)
+
+After downloading, place the file in the `data/` folder before running the notebook or scripts.
+
+
+---
+
 ## 🧠 Methodology
 
 1. **Feature Engineering**  
