@@ -11,13 +11,13 @@ Higher scores indicate reliable and responsible users; lower scores reflect risk
 
 ## 📁 Dataset Description
 
-- 100,000 raw transaction-level records from the Aave V2 protocol
-- Actions include: `deposit`, `borrow`, `repay`, `redeemunderlying`, `liquidationcall`
+- 100,000 raw transaction-level records from the Aave V2 protocol  
+- Actions include: `deposit`, `borrow`, `repay`, `redeemunderlying`, `liquidationcall`  
 - Format: JSON
 
 ---
 
-  ## Data Download
+## 💾 Data Download
 
 The main dataset (~87MB) is **not included** in this repository due to size limits.
 
@@ -25,7 +25,6 @@ You can download the dataset here:
 [Download Aave V2 transaction data (Google Drive)](https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view)
 
 After downloading, place the file in the `data/` folder before running the notebook or scripts.
-
 
 ---
 
@@ -41,40 +40,41 @@ After downloading, place the file in the `data/` folder before running the noteb
    - Assigned credit scores to each cluster based on trustworthiness.
 
 4. **Validation**  
-   - Analyzed behaviors and distributions across clusters for consistency.
+   - Analyzed behaviors and score distributions across clusters for consistency.
 
 ---
 
 ## 📂 Repository Structure
 
 credit-score/
---- data/  (Raw and sample datasets)
---- notebooks/  (Jupyter notebooks with exploration and modeling code)
---- outputs/ (Final scored wallet outputs)
---- README.txt (Project overview and methodology)
---- analysis.md  (Detailed analysis and score distribution)
+├── data/ # Raw and sample datasets (include downloaded JSON here)
+├── notebooks/ # Jupyter notebooks with exploration and modeling code
+├── outputs/ # Final scored wallet outputs (e.g., CSV files)
+├── README.md # Project overview and methodology (this file)
+├── ANALYSIS.md # Detailed analysis and score distribution
 
 
 ---
 
 ## 🚀 How to Run
 
-1. Load the provided JSON file into your notebook.
-2. Execute the data processing and clustering steps.
-3. Credit scores will be generated for each wallet.
-4. Export the scores to CSV for downstream use.
+1. Download the JSON dataset from Google Drive and place it inside the `data/` folder.  
+2. Open and run the notebook(s) inside the `notebooks/` folder.  
+3. Follow the steps to process data, engineer features, and run clustering.  
+4. Credit scores for wallets will be generated and saved in `outputs/`.
 
 ---
 
 ## 🔭 Future Improvements
 
-- Use advanced ML models for better scoring accuracy.
-- Analyze time-series patterns in transactions.
-- Build a real-time dashboard or scoring API.
+- Use advanced ML models for better scoring accuracy.  
+- Analyze time-series patterns in transaction behavior.  
+- Build a real-time scoring dashboard or API.
 
 ---
 
-Do feel free to reach out for questions or feedback! Would love to hear it!!!
+Do feel free to reach out for questions or feedback! Would love to hear from you! :)
+
 
 
 
